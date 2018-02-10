@@ -1,6 +1,6 @@
-#CODEBOOK
+# CODEBOOK
 
-##Dataset
+## Dataset
 data was obtained from: http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
 Abstract: Human Activity Recognition database built from the recordings of 30 subjects performing activities of daily living (ADL) while carrying a waist-mounted smartphone with embedded inertial sensors.
@@ -16,7 +16,7 @@ Associated Tasks: Classification, Clustering
 Missing Values? N/A
 Number of Web Hits: 596587
 
-##Variables
+## Variables
 Initial variables were created to capture all data before merge.  These include:
 * xte: xtest data
 * yte: ytest data
@@ -37,7 +37,7 @@ Once read into memory, the following variables were merged into the *all* variab
 
 The second tidy data set is the created using the aggregate function from the **plyr** package.
 
-##Transformations
+## Transformations
 Transformations included merging the data into one dataset using **cbind** and **rbind**, filtering the dataset with **grepl**, subsetting using index functions, merging in **plyr** using **merge**, and creating a new *mean* variable using **plyr**.
 
 
