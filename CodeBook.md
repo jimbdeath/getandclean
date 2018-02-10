@@ -50,6 +50,6 @@ Transformations included merging the data into one dataset using **cbind** and *
 
 
 
-##Explanation of Variables
+
 
 

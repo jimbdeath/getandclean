@@ -1,4 +1,5 @@
-##HOW THE SCRIPTS WORK
+## HOW THE SCRIPTS WORK
+
 The scripts do the following
 * Read in the data using read.table
 * Assign column names using colnames
